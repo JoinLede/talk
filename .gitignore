@@ -4,5 +4,6 @@
 .vs
 .docz
 .next
+node_modules
 *.swp
 *.DS_STORE
