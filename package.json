@@ -1,0 +1,23 @@
+{
+  "name": "lede-coral",
+  "version": "8.5.3",
+  "description": "Coral Talk for Lede Publishers",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JoinLede/talk.git"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "install": "sh scripts/npm-ci.sh",
+    "start": "npm start --prefix server",
+    "build": "sh scripts/generate.sh && sh scripts/build.sh"
+  },
+  "keywords": [
+    "coral"
+  ],
+  "author": "The Coral Project",
+  "license": "Apache-2.0"
+}
