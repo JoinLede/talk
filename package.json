@@ -17,7 +17,7 @@
   "scripts": {
     "start": "npm start --prefix server",
     "generate": "sh scripts/generate.sh",
-    "build": "sh scripts/npm-i.sh && sh scripts/build.sh"
+    "build": "sh scripts/npm-ci.sh && sh scripts/build.sh"
   },
   "keywords": [
     "coral"
