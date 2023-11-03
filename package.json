@@ -15,10 +15,9 @@
     "npm": "^8.0.0"
   },
   "scripts": {
-    "install": "npm install && sh scripts/npm-ci.sh",
     "start": "npm start --prefix server",
     "generate": "sh scripts/generate.sh",
-    "build": "sh scripts/build.sh"
+    "build": "sh scripts/npm-ci.sh && sh scripts/build.sh"
   },
   "keywords": [
     "coral"
