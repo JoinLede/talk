@@ -1,0 +1,1 @@
+release: sh scripts/npm-ci.sh && sh scripts/generate.sh && sh scripts/build.sh
