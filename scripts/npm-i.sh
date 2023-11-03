@@ -4,11 +4,11 @@ set -e
 cd "$(dirname "$0")"
 cd ..
 
-echo "installing git hooks"
+# echo "installing git hooks"
 
-cd scripts
-sh install-git-hooks.sh
-cd ..
+# cd scripts
+# sh install-git-hooks.sh
+# cd ..
 
 echo "running \`npm install\` for \`config\`"
 cd config
