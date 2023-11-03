@@ -10,6 +10,10 @@
   "directories": {
     "doc": "docs"
   },
+  "engines": {
+    "node": "^14.18",
+    "npm": "^8.0.0"
+  },
   "scripts": {
     "install": "sh scripts/npm-ci.sh",
     "start": "npm start --prefix server",
